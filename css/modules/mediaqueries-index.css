@@ -1,0 +1,38 @@
+
+/******* MEDIA QUERIES BOOTSTRAP *******/
+
+/* X-Small xs <576px */
+
+@media (min-width: 400px) {
+    #section-two img{ height: 210px; margin-left: 30%;}
+}
+
+  /* Smallsmall sm ≥576px) */
+
+@media (min-width: 576px) {
+    #section-two img{ height: 250px; margin-left: 30%;}
+}
+
+  /* Medium md ≥768px */
+
+@media (min-width: 768px) {
+    #section-two img{ height: 250px; margin-left: 35%;}
+}
+
+  /* Large lg ≥992px */
+
+@media (min-width: 992px) {
+    #section-two img{ height: 250px; margin-top: 30%; margin-left: 0%;}
+}
+
+  /* Extra large xl  ≥1200px */
+
+@media (min-width: 1200px) {
+    #section-two img{ height: 250px; margin-top: 25%; margin-left: 5%;}
+}
+
+  /* Extra extra large xxl ≥1400px */
+
+@media (min-width: 1400px) {
+    #section-two img{ height: 300px; margin-top: 15%; }
+}

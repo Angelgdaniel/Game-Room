@@ -1,0 +1,17 @@
+
+/* FUENTES DE TEXTO */
+
+@font-face {
+    font-family: 'mylodonlight';
+    src:    url('/fonts/mylodon-light-webfont.woff2') format('woff2'),
+            url('/fonts/mylodon-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'sharetechmonoregular';
+    src:  url('/fonts/ShareTechMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

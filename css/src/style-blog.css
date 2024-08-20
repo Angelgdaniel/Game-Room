@@ -1,0 +1,28 @@
+
+/* RESETEAR ESTILOS */
+
+@import url(/css/modules/reset-styles.css);
+
+/* FUENTES DE TEXTO */
+
+@import url(/css/modules/my-fonts.css);
+
+/* PRELOADER */
+
+@import url(/css/modules/preloader.css);
+
+/* CUERPO Y BARRA DE SCROLL*/
+
+@import url(/css/modules/body-scrollbar.css);
+
+/****** CONTAINER Y HEADER *******/
+
+@import url(/css/modules/header-gral.css);
+
+/* MAIN Y NOVEDADES */
+
+@import url(/css/modules/main-blog.css);
+
+/* FOOTER E INFORMACION */
+
+@import url(/css/modules/footer-gral.css);

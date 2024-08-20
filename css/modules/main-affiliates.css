@@ -1,0 +1,62 @@
+
+/* MAIN Y AFILIADOS */
+
+main{
+    background-image: url(/images/pared-ladrillos.png);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: auto;
+}
+
+main h2{
+    font-size: calc(17px + (30 - 17) * ((100vw - 400px) / (1400 - 400)));
+    color: white;
+    border-bottom: 5px solid rgb(255, 0, 255);
+    padding: 2.5%;
+    letter-spacing: 10px;
+    background: radial-gradient(circle, rgba(0,255,255,0.3510539215686274) 90%, rgba(0,255,255,0.5099614845938375) 99%);
+}
+
+main .btn{
+    background-color: transparent;
+    box-shadow: 0 5px 50px 0 fuchsia inset,0 5px 50px 0 fuchsia, 0 5px 50px 0 fuchsia inset;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: white;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+main .btn:hover{
+    box-shadow: 0 5px 50px 0 fuchsia inset,0 5px 50px 0 fuchsia, 0 5px 50px 0 fuchsia inset !important;
+    color: white;
+    border: 2px solid black;
+    transition: none;
+}
+
+main p, main h4, main hr{
+    color: white;
+}
+
+main span{
+    font-weight: bolder;
+    color: cyan;
+}
+
+main .p-one, main .bi-people-fill, main .bi-headset, main .p-four, main .p-five, main .bi-cash-coin{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+main .p-two, main h4, main .p-three{
+    margin-bottom: 2%;
+}
+
+main p{
+    font-family: sharetechmonoregular;
+    font-size: calc(10px + (17 - 10) * ((100vw - 400px) / (1400 - 400)));
+}
+
+main h4{
+    font-size: calc(17px + (25 - 17) * ((100vw - 400px) / (1400 - 400)));
+}

@@ -1,0 +1,71 @@
+
+/* FOOTER E INFORMACION */
+
+footer{
+    background-color: black;
+    height: auto;
+}
+
+.row-one-footer h3{
+    color: cyan;
+    font-family: mylodonlight;
+    font-size: calc(10px + (18 - 10) * ((100vw - 400px) / (1400 - 400)));
+    padding-top: 10%;
+}
+
+.row-one-footer ul{
+    margin: 0%;
+    list-style-type: none;
+}
+
+.row-one-footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sharetechmonoregular;
+    font-size: calc(10px + (16 - 10) * ((100vw - 400px) / (1400 - 400)));
+}
+
+.col-information ul li{
+    padding-bottom: 1%;
+}
+
+.col-social-network ul{
+    padding-top: 2.5%;
+}
+
+.col-social-network ul li{
+    display: inline;
+    padding-right: 5%;
+}
+
+.col-social-network ul li a{
+    display: inline-block;
+}
+
+.bi-facebook, .bi-instagram, .bi-youtube{
+    font-size: calc(13px + (20 - 13) * ((100vw - 400px) / (1400 - 400)));
+}
+
+.col-contact a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: sharetechmonoregular;
+    font-size: calc(10px + (17 - 10) * ((100vw - 400px) / (1400 - 400)));
+    padding-top: 1.5%;
+}
+
+.col-terms-privacy p{
+    color: cyan;
+}
+
+.col-terms-privacy p strong{
+    font-size: calc(15px + (25 - 15) * ((100vw - 400px) / (1400 - 400)));
+}
+
+.col-terms-privacy p a{
+    text-decoration: none;
+    color: white;
+    font-family: sharetechmonoregular;
+    font-size: calc(10px + (17 - 10) * ((100vw - 400px) / (1400 - 400)));
+}

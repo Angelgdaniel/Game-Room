@@ -1,0 +1,21 @@
+
+/* CUERPO Y BARRA DE SCROLL*/
+
+body{
+    background-image: url(/images/pared-ladrillos.png);
+    background-attachment: scroll;
+}
+
+body::-webkit-scrollbar{
+    width: 13px;
+}
+
+body::-webkit-scrollbar-track{
+    background: cyan;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: fuchsia;
+    border-radius: 30px;
+    border: 2px solid cyan;
+}

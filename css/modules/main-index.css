@@ -1,0 +1,205 @@
+
+/* MAIN SECCIONES */
+/* SECTION 1: imagen de fondo + animacion de letras */
+
+#section-one{
+    height: 500px;
+}
+
+.card-img{
+    width: 100%;
+    height: 500px;
+}
+
+.card{
+    border: none;
+}
+
+.card h1{
+    font-size: calc(21px + (40 - 21) * ((100vw - 400px) / (1400 - 400)));
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-left: 5%;
+    margin-top: 25%;
+    color: cyan;
+    font-family: mylodonlight;
+    letter-spacing: 15px;
+    border-radius: 20px;
+    animation-name: show;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+
+@keyframes show{
+    from{
+        outline: 4px dotted fuchsia;
+        text-shadow: 2px 2px 10px cyan;
+    }
+
+    to{
+        outline: 10px dotted cyan;
+        text-shadow: 10px 10px 25px cyan;
+    }
+}
+
+  /* SECTION 2: Game room en pocas palabras, breve descripcion */
+
+#section-two{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#section-two h2, .text-section-two{
+    border-radius: 20px;
+    border: 2px solid #ff00ff;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 255, 0.71);
+}
+
+#section-two h2{
+    padding: 2.5%;
+    font-size: calc(17px + (30 - 17) * ((100vw - 400px) / (1400 - 400)));
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white;
+    font-family: mylodonlight;
+    letter-spacing: 10px;
+    background: radial-gradient(circle, rgba(0,255,255,0.3510539215686274) 90%, rgba(0,255,255,0.5099614845938375) 99%);
+}
+
+.row-two{
+    margin-top: 1%;
+}
+
+.text-section-two{
+    padding: 5%;
+    margin-left: 1%;
+    color: white;
+    font-family: sharetechmonoregular;
+    font-size: calc(18px + (21 - 18) * ((100vw - 400px) / (1400 - 400)));
+    line-height: 26px;
+    background: radial-gradient(circle, rgba(0,255,255,0.3510539215686274) 85%, rgba(0,255,255,0.5099614845938375) 99%);
+}
+
+  /* SECTION 3: ¿Como funciona todo? */
+
+#section-three{
+    background-color: black;
+    height: auto;
+}
+
+#section-three h2{
+    color: white;
+    font-size: calc(17px + (30 - 17) * ((100vw - 400px) / (1400 - 400)));
+    font-family: mylodonlight;
+    letter-spacing: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding:  2.5%;
+    border-radius: 20px;
+    border: 2px solid fuchsia;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 255, 0.71);
+    background: radial-gradient(circle, rgba(0,255,255,0.3510539215686274) 90%, rgba(0,255,255,0.5099614845938375) 99%);
+}
+
+.s-r{
+    margin-top: 2%;
+}
+
+.b-c{
+    border-top: 10px double fuchsia;
+    border-bottom: 10px double fuchsia;
+    border-radius: 50%;
+}
+
+.s-c-1-3{
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.s-c-2-4{
+    margin-right: 3%;
+}
+
+.btn-tooltip{
+    color: cyan;
+    font-family: sharetechmonoregular;
+    font-size: calc(80px + (105 - 80) * ((100vw - 400px) / (1400 - 400)));
+    border: 3px dotted cyan;
+    border-radius: 40%;
+    padding: 2.5%;
+}
+
+.btn-tooltip:hover{
+    transform: rotateY(30deg) translate(10px, 0px);
+    text-shadow: -70px -20px 8px rgba(0, 255, 255, 0.9), -40px -10px 5px rgba(0, 255, 255, 0.9);
+    box-shadow: 0 5px 40px 0 cyan inset,0 5px 40px 0 cyan, 0 5px 40px 0 cyan inset;
+}
+
+/* SECTION 4: Juegos que encontraras + imagenes*/
+
+#section-four{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#section-four h2{
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: mylodonlight;
+    font-size: calc(17px + (30 - 17) * ((100vw - 400px) / (1400 - 400)));
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+    padding:  2.5%;
+    border-radius: 20px;
+    border: 2px solid fuchsia;
+    background: radial-gradient(circle, rgba(0,255,255,0.3510539215686274) 90%, rgba(0,255,255,0.5099614845938375) 99%);
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 255, 0.71);
+}
+
+/* SECTION 5: ¿Demasiado bueno para ser verdad? ¡Únete ahora y échale un vistazo! + boton registro*/
+
+#section-five{
+    height: auto;
+}
+
+.overlay-section-five{
+    padding-top: 3.5%;
+    top: 40%;
+    bottom: 25%;
+    right: 30%;
+    left: 30%;
+    background: radial-gradient(circle, rgba(255,0,255,0.3510539215686274) 90%, rgba(255,0,255,0.5099614845938375) 99%);
+    border: 2px solid cyan;
+    box-shadow: 0px 0px 10px 5px rgba(0, 255, 255, 0.71);
+    border-radius: 50%;
+}
+
+.overlay-section-five p{
+    color: white;
+    font-family: sharetechmonoregular;
+    font-size: calc(14px + (21 - 14) * ((100vw - 400px) / (1400 - 400)));
+    margin-bottom: 3%;
+}
+
+.overlay-section-five a{
+    color: white;
+    padding: 2.5%;
+    text-decoration: none;
+    font-family: mylodonlight;
+    font-size: calc(10px + (18 - 10) * ((100vw - 400px) / (1400 - 400)));
+    box-shadow: 0 5px 50px 0 cyan inset,0 5px 50px 0 cyan, 0 5px 50px 0 cyan inset;
+    border: 2px solid cyan;
+    border-radius: 20px;
+}
+
+.overlay-section-five a:hover{
+    box-shadow: none;
+}

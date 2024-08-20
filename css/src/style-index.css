@@ -1,0 +1,40 @@
+
+/* RESETEAR ESTILOS */
+
+@import url(/css/modules/reset-styles.css);
+
+/* FUENTES DE TEXTO */
+
+@import url(/css/modules/my-fonts.css);
+
+/* PRELOADER */
+
+@import url(/css/modules/preloader.css);
+
+/* CUERPO Y BARRA DE SCROLL*/
+
+@import url(/css/modules/body-scrollbar.css);
+
+/****** BOOTSTRAP MODIFIED STYLES *******/
+
+@import url(/css/modules/bootstrap-modified-index.css);
+
+/* CONTENEDOR PRINCIPAL*/
+
+@import url(/css/modules/container-initial-index.css);
+
+/* CABECERA E IMAGEN DE BARRA DE NAVEGACION */
+
+@import url(/css/modules/header-index.css);
+
+/* MAIN SECCIONES */
+
+@import url(/css/modules/main-index.css);
+
+/* FOOTER E INFORMACION */
+
+@import url(/css/modules/footer-index.css);
+
+/******* MEDIA QUERIES BOOTSTRAP *******/
+
+@import url(/css/modules/mediaqueries-index.css);

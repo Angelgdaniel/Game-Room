@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Game Room
 
 **Game Room** es una plataforma de mini videojuegos arcade, diseñada para ofrecer una experiencia de entretenimiento rápida y divertida. Esta aplicación frontend está construida con HTML, CSS, JavaScript, y Bootstrap 5, y contiene varias vistas esenciales para una experiencia de usuario fluida.
@@ -69,3 +70,7 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 Si tienes alguna pregunta o sugerencia sobre Game Room, no dudes en contactarme:
 
 - Correo electrónico: angeldaniel.dev@gmail.com
+=======
+# Game-Room
+Video Game Platform
+>>>>>>> b9bdeda1b3b6360c0562e10db049d24f8fc9ed46

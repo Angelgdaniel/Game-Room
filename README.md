@@ -1,5 +1,7 @@
 # Game Room
 
+<!-- imagenes o video -->
+
 **Game Room** es una plataforma de mini videojuegos arcade, diseñada para ofrecer una experiencia de entretenimiento rápida y divertida. Esta aplicación frontend está construida con HTML, CSS, JavaScript, y Bootstrap 5, y contiene varias vistas esenciales para una experiencia de usuario fluida.
 
 ## Descripción

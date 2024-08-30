@@ -26,14 +26,6 @@ Las vistas desarrolladas en **Game Room** incluyen:
 
   ![Signin](./screenshots/screencapture-sign-in-html-two.png)
 
-- **Terms of Service:** Página con los términos de servicio que los usuarios deben aceptar.
-
-  ![Terms of Service](./screenshots/screencapture-term-service.png)
-
-- **Privacy Policy:** Página que detalla las políticas de privacidad de la plataforma.
-
-  ![Privacy Policy](./screenshots/screencapture-privacy-policy-html.png)
-
 - **Forgot Password:** Página para recuperar la contraseña de acceso.
 
   ![Forgot Password](./screenshots/screencapture-forgot-password-html.png)
@@ -50,17 +42,28 @@ Las vistas desarrolladas en **Game Room** incluyen:
 
   ![Affiliates](./screenshots/screencapture-affiliates-html.png)
 
+- **Terms of Service:** Página con los términos de servicio que los usuarios deben aceptar.
+
+  ![Terms of Service](./screenshots/screencapture-term-service.png)
+
+- **Privacy Policy:** Página que detalla las políticas de privacidad de la plataforma.
+
+  ![Privacy Policy](./screenshots/screencapture-privacy-policy-html.png)
+
 ## Tecnologías Utilizadas
 
 - ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
- Para estructurar el contenido y las vistas de la plataforma.
+Para estructurar el contenido y las vistas de la plataforma.
+
 - ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 Para estilizar y mejorar la apariencia visual de la plataforma.
+
 - ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 Para agregar interactividad y dinamismo a las vistas.
+
 - ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 Para un diseño responsivo y componentes predefinidos que facilitan la creación de la interfaz.
